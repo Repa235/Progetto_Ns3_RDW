@@ -21,7 +21,7 @@ set output "Sim2.jpeg"
 #set pointsize 3
 
 plot "instant_ThroughputTCP_OnlyTCP.txt"  using 1:2 title "Solo TCP" with linespoint lt 1 lw 1 pt 1 lc rgb "black",\
-"instant_ThroughputTCP.txt"  using 1:2 title "TCP con UDP" with linespoint lt 1 lw 1 pt 2 lc rgb "red"
+"instant_ThroughputTCPUDP.txt"  using 1:2 title "TCP con UDP" with linespoint lt 1 lw 1 pt 2 lc rgb "red"
 
 
 
